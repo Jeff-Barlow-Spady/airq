@@ -1,0 +1,20 @@
+image.png# CircuitPython settings
+CIRCUITPY_WIFI_SSID = ""
+CIRCUITPY_WIFI_PASSWORD = ""
+CIRCUITPY_WEB_API_PORT = 80
+CIRCUITPY_WEB_API_PASSWORD = ""
+
+# Display settings
+DISPLAY_ROTATION = 0
+DISPLAY_BRIGHTNESS = 1.0
+
+# Sensor settings
+MOCK_SENSORS = false
+CO2_WARNING_LEVEL = 1000
+TEMP_WARNING_LEVEL = 25
+UPDATE_INTERVAL = 2.0
+
+# Pin assignments for RP2040-Zero (using available pins 0-15 and 26-29)
+BUTTON_PIN = board.GP7
+I2C_SDA_PIN = board.GP8
+I2C_SCL_PIN = board.GP9
